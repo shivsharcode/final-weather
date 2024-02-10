@@ -97,3 +97,10 @@ function showImage() {
     const weatherIcon = document.getElementById('weather-icon');
     weatherIcon.style.display = 'block'; // Make the image visible once it's loaded
 }
+
+
+let login = document.querySelector("#login-btn") ;
+
+login.addEventListener("click", ()=>{
+    window.location.href = "login page 2/index.html"
+})
